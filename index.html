@@ -1,0 +1,154 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Blog Website</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+
+    <!-- My CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">The Daily Ink</a>
+
+            <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#myNavbar"
+                    aria-controls="myNavbar"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blogs">Blogs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header class="header text-center">
+        <div class="container">
+            <h1>Welcome to My Blog</h1>
+            <p>Stories, ideas and knowledge shared with everyone.</p>
+            <a href="#blogs" class="btn btn-primary">Explore Blogs</a>
+        </div>
+    </header>
+
+    <!-- Blog Section -->
+    <section id="blogs" class="container my-5">
+        <h2 class="text-center mb-4">Latest Blog Posts</h2>
+
+        <div class="row g-4">
+
+            <!-- Blog 1 -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card blog-card h-100">
+                    <img src="https://picsum.photos/600/350?random=1"
+                         class="card-img-top"
+                         alt="Mountain landscape">
+                    <div class="card-body">
+                        <h5 class="card-title">Exploring Nature</h5>
+                        <p class="card-text">
+                            Nature gives us peace and helps us relax.
+                            Explore the beauty of mountains and forests.
+                        </p>
+                        <a href="#about" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Blog 2 -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card blog-card h-100">
+                    <img src="https://picsum.photos/600/350?random=2"
+                         class="card-img-top"
+                         alt="Laptop on a desk">
+                    <div class="card-body">
+                        <h5 class="card-title">Technology Today</h5>
+                        <p class="card-text">
+                            Technology is changing our lives.
+                            Learn about new inventions and digital trends.
+                        </p>
+                        <a href="#about" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Blog 3 -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card blog-card h-100">
+                    <img src="https://picsum.photos/600/350?random=3"
+                         class="card-img-top"
+                         alt="Notebook and coffee on a table">
+                    <div class="card-body">
+                        <h5 class="card-title">Student Life</h5>
+                        <p class="card-text">
+                            Student life is full of learning and challenges.
+                            Discover some tips for better time management.
+                        </p>
+                        <a href="#about" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section text-center">
+        <div class="container">
+            <h2>About This Blog</h2>
+            <p>
+                Welcome to The Daily Ink — a little corner of the internet where stories, ideas, and adventures come together.
+
+As a digital nomad, I believe that inspiration can be found anywhere — from a quiet café in a new city to a beautiful mountain view or a late-night conversation. My journey is all about exploring the world, embracing new experiences, and learning something new every day.
+
+Through this blog, I share my thoughts on travel, technology, lifestyle, and the little moments that make life extraordinary. Whether it's discovering hidden places, exploring digital trends, or finding inspiration in everyday life, I hope to bring something meaningful to every reader.
+
+For me, life is more than just reaching a destination — it's about enjoying the journey, staying curious, and creating stories worth sharing.
+
+Explore more. Dream bigger. Keep discovering. 🌍
+            </p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container my-5 text-center">
+        <h2>Contact Us: XXXXX23678</h2>
+        <p>Email: supr.singh2105@gmail.com</p>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center p-3">
+        <p class="mb-0">&copy; 2026 My Blog Website</p>
+    </footer>
+
+    <!-- Bootstrap JavaScript for mobile navbar -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

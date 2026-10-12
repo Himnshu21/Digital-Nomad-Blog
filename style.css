@@ -1,0 +1,84 @@
+
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f5f5f5;
+}
+
+/* Header section */
+.header {
+    background-color: #dcecff;
+    padding: 70px 20px;
+}
+
+.header h1 {
+    color: #222222;
+    font-size: 40px;
+}
+
+.header p {
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+/* Blog cards */
+.blog-card {
+    border: none;
+    box-shadow: 0 2px 8px #dddddd;
+    transition: transform 0.3s;
+}
+
+.blog-card:hover {
+    transform: translateY(-5px);
+}
+
+.blog-card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* About section */
+.about-section {
+    background-color: #e8e8e8;
+    padding: 40px 20px;
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+}
+
+/* Tablet screens */
+@media (max-width: 768px) {
+    .header {
+        padding: 50px 15px;
+    }
+
+    .header h1 {
+        font-size: 32px;
+    }
+
+    .header p {
+        font-size: 16px;
+    }
+}
+
+/* Mobile screens */
+@media (max-width: 576px) {
+    .header {
+        padding: 35px 12px;
+    }
+
+    .header h1 {
+        font-size: 26px;
+    }
+
+    .blog-card img {
+        height: 180px;
+    }
+
+    .about-section {
+        padding: 30px 15px;
+    }
+}
